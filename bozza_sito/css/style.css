@@ -1,0 +1,37 @@
+body{
+    background-color: #b9a286;
+}
+
+.header_pagina{
+    background-color: #5f3f34;
+    color: #b9a286;
+}
+
+.footer_pagina{
+    background-color: #5f3f34;
+    color: #b9a286;
+}
+
+.testo{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+    text-align: justify;
+}
+
+.gioca {
+    border: 1px solid black;
+    background-color: #b9a286;
+    color: #5f3f34;
+    border-radius: 5px;
+    font-size: 40px;
+}
+
+a {
+    color: #5f3f34;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #5f3f34;
+  }
