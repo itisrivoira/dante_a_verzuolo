@@ -9,56 +9,58 @@
     <script src="./js/script.js"></script>
   </head>
 <body class="sfondoImg">
+  <!-- INIZIO HEADER -->
   
-<!-- INIZIO HEADER -->
-<header class="header-area overlay mb-5">
-  <nav class="navbar navbar-expand-md navbar-dark">
-  <div class="container">
-    
-    <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
-      <span class="menu-icon-bar"></span>
-      <span class="menu-icon-bar"></span>
-      <span class="menu-icon-bar"></span>
-    </button>
-    
-    <div id="main-nav" class="collapse navbar-collapse fixed-top sfondo">
-      <ul class="navbar-nav ml-auto">
-        <li><a href="./index.html" class="nav-item nav-link active">Home</a></li>
-        <li><a href="#" class="nav-item nav-link">La storia</a></li>
-        <li class="dropdown">
-          <a href="#" class="nav-item nav-link" data-toggle="dropdown">Le Pergamene</a>
-          <div class="dropdown-menu">
-            <a href="./paleografia.html" class="dropdown-item">La Paleografia</a>
-            <a href="./particolari_e_particolarita.html" class="dropdown-item">I Particolari</a>
-          </div>
-        </li>
-        <li class="dropdown">
-          <a href="#" class="nav-item nav-link" data-toggle="dropdown">La Divina Commedia</a>
-          <div class="dropdown-menu">
-            <a href="./dante_e_la_commedia.html" class="dropdown-item">La Commedia</a>
-            <a href="./dante_e_il_purgatorio.html" class="dropdown-item">Il Purgatorio</a>
-          </div>
-        </li>
-        <li class="dropdown">
-          <a href="#" class="nav-item nav-link" data-toggle="dropdown">Il Territorio</a>
-          <div class="dropdown-menu">
-            <a href="./dante_e_il_piemonte.html" class="dropdown-item">Dante e il Piemonte</a>
-            <a href="./dante_e_verzuolo.html" class="dropdown-item">Dante a Verzuolo</a>
-          </div>
-        </li>
-        <li class="dropdown">
-          <a href="#" class="nav-item nav-link" data-toggle="dropdown">Extra</a>
-          <div class="dropdown-menu">
-            <a href="./dante_in_frasi.html" class="dropdown-item">Dante in Frasi</a>
-            <a href="./partecipanti.html" class="dropdown-item">I Partecipanti</a>
-          </div>
-        </li>
-      </ul>
+  <header class="header-area overlay mb-5">
+    <nav class="navbar navbar-expand-md navbar-dark">
+    <div class="container">
+      
+      <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
+        <span class="menu-icon-bar"></span>
+        <span class="menu-icon-bar"></span>
+        <span class="menu-icon-bar"></span>
+      </button>
+      
+      <div id="main-nav" class="collapse navbar-collapse fixed-top sfondo ul_navbar_10_from_right">
+        <ul class="navbar-nav ml-auto ">
+          <li><a href="./index.html" class="nav-item nav-link active">Home</a></li>
+          <li class="dropdown">
+            <a href="#" class="nav-item nav-link" data-toggle="dropdown">Le Pergamene</a>
+            <div class="dropdown-menu">
+              <a href="./storia.html" class="dropdown-item">La Storia</a>
+              <a href="./paleografia.html" class="dropdown-item">La Paleografia</a>
+              <a href="./particolari_e_particolarita.html" class="dropdown-item">I Particolari</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="nav-item nav-link" data-toggle="dropdown">La Divina Commedia</a>
+            <div class="dropdown-menu">
+              <a href="./dante_e_la_commedia.html" class="dropdown-item">La Commedia</a>
+              <a href="./dante_e_il_purgatorio.html" class="dropdown-item">Il Purgatorio</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="nav-item nav-link" data-toggle="dropdown">Il Territorio</a>
+            <div class="dropdown-menu">
+              <a href="./dante_e_il_piemonte.html" class="dropdown-item">Dante e il Piemonte</a>
+              <a href="./dante_e_verzuolo.html" class="dropdown-item">Dante a Verzuolo</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="nav-item nav-link" data-toggle="dropdown">Extra</a>
+            <div class="dropdown-menu">
+              <a href="./dante_in_frasi.html" class="dropdown-item">Dante in Frasi</a>
+              <a href="./partecipanti.html" class="dropdown-item">I Partecipanti</a>
+              <a href="#" class="dropdown-item">Gioca</a>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
-</header>  
-<!-- FINE HEADER -->
+  </nav>
+  
+  </header>
+  <!-- FINE HEADER -->
 
 
 <audio id="audio_player">
@@ -67,29 +69,68 @@
 </audio>
 <div class="container">
   <div class="row">
-    <img src="./img/dante_audio_100.png" class="img-rounded" alt="Ascolta" onclick="playAudio()">
+    <h1>Dante e Verzuolo</h1> <img src="./img/dante_audio_100.png" class="img-rounded" alt="Ascolta" onclick="playAudio()">
   </div>
-  <div class="row">
+  <div class="row mt-5">
     <div class="col-sm-12 testo">
-      <p>Per quanto riguarda la presenza dei frammenti danteschi nell’archivio del comune di <a href="https://comune.verzuolo.cn.it/" target="__blank">Verzuolo</a> si possono ipotizzare alcune teorie, ma non vi sono per ora riferimenti certi e documentati.</p>
-      <p>La loro presenza nel territorio dell’antico Marchesato di Saluzzo non ci deve stupire.</p>
-      <p>Questo piccolo potere signorile ebbe tra XV e XVI secolo un ruolo importante tra varie potenze italiane ed europee del tempo e fu testimone di una raffinata e aggiornata cultura artistica e letteraria, come evidenzia la presenza del pittore il fiammingo <a href="https://comune.saluzzo.cn.it/monumento/casa-cavassa-10/" target="__blank">Hans Clemer</a>, artista di corte del marchese Ludovico II, o quella di botteghe di frescanti itineranti aggiornate sulle novità francesi e liguri.</p>
-      <p>Nel 1885 il professor Rodolfo Renier, filologo e letterato italiano, diede notizia di un commento a Dante sconosciuto, contenuto in un codice palatino realizzato da un certo Stefano Talice da Ricaldone che in “burgo Liagniaci 1474 Kalendis novembris hora 12”; vista la somiglianza di questo codice con il commento di Benvenuto da Imola, celebre commentatore trecentesco della Commedia, il Renier avanzò il sospetto che non fosse opera autonoma e originale.</p>
-      <p>Il dato importante che emerge da questa vicenda è la presenza e la circolazione nel XV secolo, in questo territorio pedemontano, di un codice dantesco probabilmente connesso alla consolidata abitudine delle letture pubbliche della Divina Commedia che venivano fatte nel territorio del Marchesato di Saluzzo.</p>
-      <p>Inoltre Lagnasco, piccolo comune a pochi chilometri da Verzuolo, era residenza della famiglia <a href="https://www.castellidilagnasco.it/ita/storia.aspx" target="__blank">Tapparelli</a>, prestigiosa casata nobiliare con importanti legami politici, religiosi e culturali tra XV e XVI secolo in tutta la penisola italiana e anche in Europa.</p>
-      <p>Nel 1992, nella prima trascrizione dei frammenti, gli studiosi, ragionando sulla questione della provenienza delle carte, ipotizzarono un legame con i trovatori, anch’essi itineranti tra Italia e Francia e si è pensato che il codice fosse presente nella biblioteca del castello di Verzuolo, provenendo dal mondo francese d’oltralpe.</p>
-      <p>E’ importante menzionare il ruolo svolto dagli ordini religiosi nel Medioevo per la conservazione e la diffusione della letteratura, religiosa e laica.</p>
-      <p>A Verzuolo erano presenti ordini religiosi diversi: i domenicani nel convento sulla collina a San Grato e nella  cappella di Santa Cristina, fondata da Aimone Tapparelli di Lagnasco, anche lui domenicano. Più tardi i frati cappuccini fondarono il loro convento ai piedi della collina, nell’attuale parrocchiale dei <a href="https://youtu.be/p4gUunCd6Sc" target="__blank">SS.Filippo e Giacomo</a>, con l’intento di tenere lontano le eresie.</p>
-      <p>Domenicani e cappuccini potrebbero aprire un’altra via possibile per l’arrivo del codice dantesco a Verzuolo.</p>
-      <div class="col-sm-6 d-flex justify-content-center">
-        <img src="./img/verzuolo_450.jpg" class="img-rounded" alt="Verzuolo"> 
-      </div>
-      <div class="col-sm-6 d-flex justify-content-center">
-        <img src="./img/castello_lagnasco_450.jpg" class="img-rounded" alt="Castello di Lagnasco"> 
-      </div>
+      <p class="testo">Per quanto riguarda la presenza dei frammenti danteschi nell’archivio del comune di <a href="https://comune.verzuolo.cn.it/" target="__blank">Verzuolo</a> si possono ipotizzare alcune teorie, ma non vi sono per ora riferimenti certi e documentati.</p>
+      <p class="testo">La loro presenza nel territorio dell’antico Marchesato di Saluzzo non ci deve stupire.</p>
+      <p class="testo">Questo piccolo potere signorile ebbe tra XV e XVI secolo un ruolo importante tra varie potenze italiane ed europee del tempo e fu testimone di una raffinata e aggiornata cultura artistica e letteraria, come evidenzia la presenza del pittore il fiammingo <a href="https://comune.saluzzo.cn.it/monumento/casa-cavassa-10/" target="__blank">Hans Clemer</a>, artista di corte del marchese Ludovico II, o quella di botteghe di frescanti itineranti aggiornate sulle novità francesi e liguri.</p>
+      <p class="testo">Nel 1885 il professor Rodolfo Renier, filologo e letterato italiano, diede notizia di un commento a Dante sconosciuto, contenuto in un codice palatino realizzato da un certo Stefano Talice da Ricaldone che in “burgo Liagniaci 1474 Kalendis novembris hora 12”; vista la somiglianza di questo codice con il commento di Benvenuto da Imola, celebre commentatore trecentesco della Commedia, il Renier avanzò il sospetto che non fosse opera autonoma e originale.</p>
+      <p class="testo">Il dato importante che emerge da questa vicenda è la presenza e la circolazione nel XV secolo, in questo territorio pedemontano, di un codice dantesco probabilmente connesso alla consolidata abitudine delle letture pubbliche della Divina Commedia che venivano fatte nel territorio del Marchesato di Saluzzo.</p>
+      <p class="testo">Inoltre Lagnasco, piccolo comune a pochi chilometri da Verzuolo, era residenza della famiglia <a href="https://www.castellidilagnasco.it/ita/storia.aspx" target="__blank">Tapparelli</a>, prestigiosa casata nobiliare con importanti legami politici, religiosi e culturali tra XV e XVI secolo in tutta la penisola italiana e anche in Europa.</p>
+      <p class="testo">Nel 1992, nella prima trascrizione dei frammenti, gli studiosi, ragionando sulla questione della provenienza delle carte, ipotizzarono un legame con i trovatori, anch’essi itineranti tra Italia e Francia e si è pensato che il codice fosse presente nella biblioteca del castello di Verzuolo, provenendo dal mondo francese d’oltralpe.</p>
+      <p class="testo">E’ importante menzionare il ruolo svolto dagli ordini religiosi nel Medioevo per la conservazione e la diffusione della letteratura, religiosa e laica.</p>
+      <p class="testo">A Verzuolo erano presenti ordini religiosi diversi: i domenicani nel convento sulla collina a San Grato e nella  cappella di Santa Cristina, fondata da Aimone Tapparelli di Lagnasco, anche lui domenicano. Più tardi i frati cappuccini fondarono il loro convento ai piedi della collina, nell’attuale parrocchiale dei <a href="https://youtu.be/p4gUunCd6Sc" target="__blank">SS.Filippo e Giacomo</a>, con l’intento di tenere lontano le eresie.</p>
+      <p class="testo">Domenicani e cappuccini potrebbero aprire un’altra via possibile per l’arrivo del codice dantesco a Verzuolo.</p>
+    </div>
+  </div>
+  <div class="row justify-content-between mt-5">
+    <div class="col-6">
+      <img src="./img/verzuolo_450.jpg" class="img-fluid" alt="" srcset="">
+    </div>
+    <div class="col-6">
+      <img src="./img/castello_lagnasco_450" class="img-fluid" alt="" srcset="">
     </div>
   </div>
 </div>
+<!-- CONTAINER -->
 
+<!-- INIZIO FOOTER -->
+<footer>
+ <div class="footer-top">
+     <div class="container">
+         <div class="row">
+             <div class="col-lg-6 col-sm-6 d-flex justify-content-center">
+                 <div class="address d-flex flex-column align-items-center">
+                     <h3 class="testo_home p-4">Comune di Verzuolo</h3>
+                     <p class="mb-4 mt-4">Piazza Martiri della Libertà, 1 - 12039 Verzuolo (CN)</p>
+                     <p class="testo"><strong>Tel: </strong>0175 255111</p>
+                 </div>
+             </div>
+             <div class="col-lg-6 col-sm-6 newsletter d-flex justify-content-center">
+                 <div class="address d-flex flex-column align-items-center">
+                     <!-- <h3 class="testo_home p-4">I nostri partner</h3> -->
+                     <img src="./img/loghi_enti.png">
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+
+ <div class="footer-bottom">
+     <div class="container">
+         <div class="row">
+             <div class="col-12">
+                 <p class="text-center mb-2">&copy; Copyright <strong>Denina</strong>. All Rights Reserved - Creato da <a href="https://www.denina.it/">Alunni del Denina Pellico Rivoira</a></p>
+             </div>
+         </div>
+     </div>
+ </div>
+</footer>
+<!-- FINE FOOTER -->
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
