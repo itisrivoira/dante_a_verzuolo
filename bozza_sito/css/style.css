@@ -24,7 +24,7 @@ body{
 
 .testo_home{
     background-color: #5f3f34;
-    font-size: 3vw;
+    font-size: 2vw;
     font-family: sans-serif;
     color: #b9a286;
     text-align: justify;
@@ -59,10 +59,6 @@ body{
   font-weight: bold;
 }
 
-.bordiImmagini:hover{
-  background-color: #b9a286;
-}
-
 a:hover {
     color: #5f3f34;
   }
@@ -87,6 +83,7 @@ a:hover {
 .bordiImmagini{
     /* border:4px solid #5f3f34; */
     border-radius: 10px;
+    background-color: #5f3f34;
 }
 .margineFooter{
     margin-top: 100px;
@@ -415,7 +412,8 @@ p {
     background-color: rgba(0, 0, 0, .9);
   }
   .navbar.fixed-top .navbar-nav {
-    background: transparent;
+    /* background: transparent; */
+    background-color: #5f3f34 !important;
   }
 }
 @media screen and (min-width: 767px) {
@@ -525,14 +523,9 @@ p {
 
 
 @media screen and (max-width: 600px) {
-
-
     a > h3,a > p{
-        font-size: 5vw;
-    }
-
-
-    
+        font-size: 7vw;
+    }    
 }
 
 @media screen and (max-width: 1200px) {
@@ -558,4 +551,18 @@ p {
   position: relative;
   text-align: center;
   color: white;
+}
+
+
+.alto {
+  height: 80px !important;
+}
+
+.overlay {
+  background-image: url("../img/pergamena_siteheader.png") !important;
+  /* height: 100px; */
+}
+
+.navbar-toggler {
+  background-color: #5f3f34 !important;
 }
