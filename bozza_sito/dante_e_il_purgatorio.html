@@ -1,46 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Sulle Tracce di Dante</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-
-  <a href="./index.html">
-    <div class="jumbotron text-center header_pagina">
-    <h1>Sulle Tracce di Dante</h1>
-    <p>Dante e il Purgatorio</p> 
-  </div>
-</a>
+  <head>
+    <title>Storia delle pergamene di Dante</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+  </head>
+<body class="sfondoImg">
+  <!-- INIZIO HEADER -->
+  
+  <header class="header-area overlay mb-5">
+    <nav class="navbar navbar-expand-md navbar-dark">
+    <div class="container">
+      
+      <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
+        <span class="menu-icon-bar"></span>
+        <span class="menu-icon-bar"></span>
+        <span class="menu-icon-bar"></span>
+      </button>
+      
+      <div id="main-nav" class="collapse navbar-collapse fixed-top sfondo ul_navbar_10_from_right">
+        <ul class="navbar-nav ml-auto ">
+          <li><a href="./index.html" class="nav-item nav-link active">Home</a></li>
+          <li class="dropdown">
+            <a href="#" class="nav-item nav-link" data-toggle="dropdown">Le Pergamene</a>
+            <div class="dropdown-menu">
+              <a href="./storia.html" class="dropdown-item">La Storia</a>
+              <a href="./paleografia.html" class="dropdown-item">La Paleografia</a>
+              <a href="./particolari_e_particolarita.html" class="dropdown-item">I Particolari</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="nav-item nav-link" data-toggle="dropdown">La Divina Commedia</a>
+            <div class="dropdown-menu">
+              <a href="./dante_e_la_commedia.html" class="dropdown-item">La Commedia</a>
+              <a href="./dante_e_il_purgatorio.html" class="dropdown-item">Il Purgatorio</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="nav-item nav-link" data-toggle="dropdown">Il Territorio</a>
+            <div class="dropdown-menu">
+              <a href="./dante_e_il_piemonte.html" class="dropdown-item">Dante e il Piemonte</a>
+              <a href="./dante_e_verzuolo.html" class="dropdown-item">Dante a Verzuolo</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="nav-item nav-link" data-toggle="dropdown">Extra</a>
+            <div class="dropdown-menu">
+              <a href="./dante_in_frasi.html" class="dropdown-item">Dante in Frasi</a>
+              <a href="./partecipanti.html" class="dropdown-item">I Partecipanti</a>
+              <a href="#" class="dropdown-item">Gioca</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  </header>
+  <!-- FINE HEADER -->
   
 <div class="container">
+  <div class="row mt-5">
+    <div class="col d-flex align-self-center">
+      <h1>Dante e il Purgatorio</h1>
+    </div>
+  </div>
+
   <div class="row">
-    <div class="col-sm-12 testo">
-      <p>Il Purgatorio è la seconda cantica della Divina Commedia.</p>
-      <p>E’ composta da Dante tra il 1309 e il 1 ed è stata “licenziata”, resa pubblica, per gruppi di canti o cantica per cantica, ad oggi non se ne ha certezza.</p>
-      <p>Due testimonianze di contemporanei ci permettono di avere alcuni dati ceti sulla composizione e sulla diffusione del Purgatorio. Il primo è Andrea Lancia, notaio fiorentino, contemporaneo di Dante e divulgatore di libri classici. Traduce l’Eneide di Virgilio e nell’episodio in cui <a href="https://www.corriere.it/Primo_Piano/Cronache/2009/05/05/pop_enea.shtml" target="__blank">Enea che fugge da Troia</a> in fiamme ed incontra la madre Creusa dice che l’eroe troiano abbraccia tre volte la madre. Questo episodio nell’Eneide non è presente, ma lo troviamo nel Purgatorio, II canto, in cui Dante abbraccia l’amico Casella e per tre volte le braccia tornano al petto. Lancia dunque conosceva molto bene il Purgatorio tanto da citarlo e cambiare lo scritto virgiliano che egli pubblica nel 1 317. </p>
-      <p>Un altro indizio della diffusione del Purgatorio lo troviamo in un’opera pittorica, <a href="https://www.terredisiena.it/arte-e-cultura/palazzo-pubblico/" target="__blank">La Maestà di Simone Martini</a>, pittore senese alla corte avignonese. L’affresco della Maestà, realizzato per la sala del Consiglio di Siena tra il 1312 e 1315, riporta nella predella, sotto i piedi della Vergine, alcune terzine del Purgatorio, elemento che evidenzia la conoscenza e l’apprezzamento della cantica da parte dell’artista già in quegli anni. </p>
-      <p>Il codice verzuolese conserva sommariamente i canti dal XXI al XXX del Purgatorio e ci riporta nella V-VI cornice della seconda cantica; la parte più cospicua dei frammenti riguarda la VI cornice dove si purgano i <a href="https://divinacommedia.weebly.com/golosi.html" target="__blank">peccati della gola</a>.</p>
-      <p>I penitenti sono colpevoli di eccessivo amore per il cibo e le bevande e sono tormentati da fame e sete continua, stimolati dal profumo di dolci frutti che pendono da due alberi posti all’ingresso e all’uscita della cornice e da una fonte d’acqua che sgorga dalla roccia e sale verso l’alto. </p>
-      <p>Come sappiamo il Purgatorio è una montagna che si erge agli antipodi di Gerusalemme, divisa in tre parti Antipurgatorio, Purgatorio e Paradiso Terrestre.</p>
-      <p>La struttura morale del Purgatorio si basa sulla visione <a href="https://www.treccani.it/enciclopedia/tomismo_(Dizionario-di-filosofia)/" target="__blank">tomistica</a> dei 7 peccati capitali ed è suddiviso in 7 cornici, in cui vengono espiati i vari peccati.</p>
-      <p>Le pene del Purgatorio sono attribuite secondo la regola del contrappasso, per analogia o contrasto, ma non sono eterne, come nell’Inferno. Le anime infatti sono salve ed affrontano un percorso di purificazione. Il clima è diverso da quello degli Inferi: le anime pregano, cantano e sono solidali tra loro.</p>
-      <p>Virgilio guida Dante attraverso quasi tutta la cantica, ma giunto al Paradiso terrestre dovrà cedere il posto a Beatrice.</p>
+    <div class="col-sm-12">
+      <p class="testo">Il Purgatorio è la seconda cantica della Divina Commedia.</p>
+      <p class="testo">E’ composta da Dante tra il 1309 e il 1 ed è stata “licenziata”, resa pubblica, per gruppi di canti o cantica per cantica, ad oggi non se ne ha certezza.</p>
+      <p class="testo">Due testimonianze di contemporanei ci permettono di avere alcuni dati ceti sulla composizione e sulla diffusione del Purgatorio. Il primo è Andrea Lancia, notaio fiorentino, contemporaneo di Dante e divulgatore di libri classici. Traduce l’Eneide di Virgilio e nell’episodio in cui <a href="https://www.corriere.it/Primo_Piano/Cronache/2009/05/05/pop_enea.shtml" target="__blank">Enea che fugge da Troia</a> in fiamme ed incontra la madre Creusa dice che l’eroe troiano abbraccia tre volte la madre. Questo episodio nell’Eneide non è presente, ma lo troviamo nel Purgatorio, II canto, in cui Dante abbraccia l’amico Casella e per tre volte le braccia tornano al petto. Lancia dunque conosceva molto bene il Purgatorio tanto da citarlo e cambiare lo scritto virgiliano che egli pubblica nel 1 317. </p>
+      <p class="testo">Un altro indizio della diffusione del Purgatorio lo troviamo in un’opera pittorica, <a href="https://www.terredisiena.it/arte-e-cultura/palazzo-pubblico/" target="__blank">La Maestà di Simone Martini</a>, pittore senese alla corte avignonese. L’affresco della Maestà, realizzato per la sala del Consiglio di Siena tra il 1312 e 1315, riporta nella predella, sotto i piedi della Vergine, alcune terzine del Purgatorio, elemento che evidenzia la conoscenza e l’apprezzamento della cantica da parte dell’artista già in quegli anni. </p>
+      <p class="testo">Il codice verzuolese conserva sommariamente i canti dal XXI al XXX del Purgatorio e ci riporta nella V-VI cornice della seconda cantica; la parte più cospicua dei frammenti riguarda la VI cornice dove si purgano i <a href="https://divinacommedia.weebly.com/golosi.html" target="__blank">peccati della gola</a>.</p>
+      <p class="testo">I penitenti sono colpevoli di eccessivo amore per il cibo e le bevande e sono tormentati da fame e sete continua, stimolati dal profumo di dolci frutti che pendono da due alberi posti all’ingresso e all’uscita della cornice e da una fonte d’acqua che sgorga dalla roccia e sale verso l’alto. </p>
+      <p class="testo">Come sappiamo il Purgatorio è una montagna che si erge agli antipodi di Gerusalemme, divisa in tre parti Antipurgatorio, Purgatorio e Paradiso Terrestre.</p>
+      <p class="testo">La struttura morale del Purgatorio si basa sulla visione <a href="https://www.treccani.it/enciclopedia/tomismo_(Dizionario-di-filosofia)/" target="__blank">tomistica</a> dei 7 peccati capitali ed è suddiviso in 7 cornici, in cui vengono espiati i vari peccati.</p>
+      <p class="testo">Le pene del Purgatorio sono attribuite secondo la regola del contrappasso, per analogia o contrasto, ma non sono eterne, come nell’Inferno. Le anime infatti sono salve ed affrontano un percorso di purificazione. Il clima è diverso da quello degli Inferi: le anime pregano, cantano e sono solidali tra loro.</p>
+      <p class="testo">Virgilio guida Dante attraverso quasi tutta la cantica, ma giunto al Paradiso terrestre dovrà cedere il posto a Beatrice.</p>
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-8 d-flex justify-content-center">
+    <div class="col-sm-8 d-flex justify-content-center align-self-center">
       <img src="./img/dolce stil novo_600.png" class="img-rounded" alt="Dolce Stil Novo"> 
     </div>
-    <div class="col-sm-4 testo">
-      <p>Nel XXIV canto del Purgatorio al v. 49 dei frammenti verzuolesi è riportato il seguente passo che definisce il Dolce Stil Novo:</p>
-      <p><i>"che ‘l Notaro e Guittone a me rinente</i></p>
-      <p><i>Di qua dal dolce stil novo chiodo"</i></p>
+    <div class="col-sm-4 align-self-center">
+      <p class="testo">Nel XXIV canto del Purgatorio al v. 49 dei frammenti verzuolesi è riportato il seguente passo che definisce il Dolce Stil Novo:</p>
+      <p class="testo"><i>"che 'l Notaro e Guittone a me rinente</i></p>
+      <p class="testo"><i>Di qua dal dolce stil novo chiodo"</i></p>
     </div>
   </div>
 </div>

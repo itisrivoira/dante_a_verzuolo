@@ -1,129 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Sulle Tracce di Dante</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+  <head>
+    <title>Sulle Tracce di Dante</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+  </head>
+<body class="sfondoImg">
 
-<a href="./index.html">
-  <div class="jumbotron text-center header_pagina">
-    <h1>Sulle Tracce di Dante</h1>
-    <p>Dante a Verzuolo</p> 
-  </div>
-</a>
-  
-<div class="container">
-  <!-- ROW -->
-  <div class="row">
-    <a href="#">
-      <div class="col-sm-12 text-center gioca">
-        GIOCA
-      </div>
-    </a>
-  </div>
-  <!-- ROW -->
-  <!-- ROW -->
-  <div class="row">
-    <a href="./storia.html">
-      <div class="col-sm-4">
-        <h3>La Storia</h3>      
-        <p>La storia delle pergamene e le foto di Fissore</p>            
-        <img src="./img/incipit_home/storia_home.jpg" class="img-rounded" alt="La storia delle pergamene e le foto di Fissore" width="304" height="236"> 
-      </div>
-    </a>
-    <a href="./paleografia.html">
-      <div class="col-sm-4">
-        <h3>La Paleografia</h3>      
-        <p>Particolari e curiosità delle pergamene</p>            
-        <img src="./img/incipit_home/paleografia_home.png" class="img-rounded" alt="Particolari e curiosità delle pergamene" width="304" height="236"> 
-      </div>
-    </a>
-    <a href="./dante_e_la_commedia.html">
-      <div class="col-sm-4">
-        <h3>La Commedia</h3>      
-        <p>Dante e la Commendia</p>            
-        <img src="./img/incipit_home/dante_e_la_commedia_home.png" class="img-rounded" alt="Dante e la Commendia" width="304" height="236"> 
-      </div>
-    </a>
-  </div>
-  <!-- ROW -->
-  <div class="row">
-    <a href="./dante_e_il_purgatorio.html">
-      <div class="col-sm-4">
-        <h3>Il Purgatorio</h3>      
-        <p>Dante ed il Purgatorio</p>            
-        <img src="./img/incipit_home/dante_e_il_purgatorio_home.png" class="img-rounded" alt="Dante ed il Purgatorio" width="304" height="236"> 
-      </div>
-    </a>
-    <a href="./dante_in_frasi.html">
-      <div class="col-sm-4">
-        <h3>Dante in Frasi</h3>      
-        <p>Le frasi che disegnano</p>            
-        <img src="./img/incipit_home/dante_frasi_400.jpeg" class="img-rounded" alt="Le frasi che disegnano" width="304" height="236"> 
-      </div>
-    </a>
-    <a href="./dante_e_il_piemonte.html">
-      <div class="col-sm-4">
-        <h3>Il Piemonte</h3>      
-        <p>Dante in Piemonte</p>            
-        <img src="./img/incipit_home/dante_e_il_piemonte_home.jpg" class="img-rounded" alt="Dante in Piemonte" width="304" height="236"> 
-      </div>
-    </a>
-  </div>
-  <!-- ROW -->
-  <div class="row">
-    <a href="./dante_e_verzuolo.html">
-      <div class="col-sm-4">
-        <h3>Verzuolo</h3>      
-        <p>Dante a Verzuolo</p>            
-        <img src="./img/incipit_home/dante_a_verzuolo_home.jpg" class="img-rounded" alt="Dante a Verzuolo" width="304" height="236"> 
+
+<div id="header"></div>
+
+
+<!-- INIZIO HEADER -->
+
+<header class="header-area overlay mb-5">
+  <nav class="navbar navbar-expand-md navbar-dark">
+  <div class="container">
+    
+    <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
+      <span class="menu-icon-bar"></span>
+      <span class="menu-icon-bar"></span>
+      <span class="menu-icon-bar"></span>
+    </button>
+    
+    <div id="main-nav" class="collapse navbar-collapse fixed-top sfondo ul_navbar_10_from_right">
+      <ul class="navbar-nav ml-auto ">
+        <li><a href="#" class="nav-item nav-link active">Home</a></li>
+        <li class="dropdown">
+          <a href="#" class="nav-item nav-link" data-toggle="dropdown">Le Pergamene</a>
+          <div class="dropdown-menu">
+            <a href="./storia.html" class="dropdown-item">La Storia</a>
+            <a href="./paleografia.html" class="dropdown-item">La Paleografia</a>
+            <a href="./particolari_e_particolarita.html" class="dropdown-item">I Particolari</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="nav-item nav-link" data-toggle="dropdown">La Divina Commedia</a>
+          <div class="dropdown-menu">
+            <a href="./dante_e_la_commedia.html" class="dropdown-item">La Commedia</a>
+            <a href="./dante_e_il_purgatorio.html" class="dropdown-item">Il Purgatorio</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="nav-item nav-link" data-toggle="dropdown">Il Territorio</a>
+          <div class="dropdown-menu">
+            <a href="./dante_e_il_piemonte.html" class="dropdown-item">Dante e il Piemonte</a>
+            <a href="./dante_e_verzuolo.html" class="dropdown-item">Dante a Verzuolo</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="nav-item nav-link" data-toggle="dropdown">Extra</a>
+          <div class="dropdown-menu">
+            <a href="./dante_in_frasi.html" class="dropdown-item">Dante in Frasi</a>
+            <a href="./partecipanti.html" class="dropdown-item">I Partecipanti</a>
+            <a href="#" class="dropdown-item">Gioca</a>
+          </div>
+        </li>
+      </ul>
     </div>
-    </a>
-    <a href="./particolari_e_particolarita.html">
-      <div class="col-sm-4">
-        <h3>Particolari</h3>      
-        <p>Le piccole cose dietro le pergamene</p>            
-        <img src="" class="img-rounded" alt="Particolari" width="304" height="236"> 
-    </div>
-    </a>
-    <a href="./ringraziamenti.html">
-      <div class="col-sm-4">
-        <h3>Grazie</h3>      
-        <p>I ringraziamenti</p>            
-        <img src="" class="img-rounded" alt="Grazie" width="304" height="236"> 
-      </div>
-    </a>
   </div>
-  <!-- ROW -->
+</nav>
+
+<!-- <div class="banner">
+  <div class="container">
+    <a href="#content" class="button btn-block  button-primary">GIOCA</a>
+  </div>
+</div> -->
+
+</header>
+
+
+<!-- FINE HEADER -->
+
+
+<div class="container ">
+  <div class="row justify-content-center">
+      <div class="col bordiImmagini mr-5">  
+        <div class="justify-content-center align-items-end d-flex bordiImmagini">
+            <a href="./storia.html"><img src="./img/incipit_home/storia_home_header500.jpg" class="img-fluid" alt="La storia delle pergamene"></a>
+        </div> 
+        <a href="./storia.html"><h3 class="testo_home p-4">La Storia</h3></a>       
+      </div>
+      <div class="col bordiImmagini mr-5">  
+        <div class="justify-content-center align-items-end d-flex">
+            <a href="./paleografia.html"><img src="./img/incipit_home/paleografia_home500.png" class="img-fluid " alt="Particolari e curiosità delle pergamene"></a>
+        </div>  
+        <a href="./paleografia.html"></a><h3 class="testo_home p-xl-4">La Paleografia</h3></a>      
+      </div>
+      <div class="col bordiImmagini mr-5">  
+        <div class="justify-content-center align-items-end d-flex">
+            <a href="./dante_e_la_commedia.html"><img src="./img/incipit_home/dante_e_la_commedia_home500.png" class="img-fluid" alt="Dante e la Commendia" ></a>
+        </div>
+        <a href="./dante_e_la_commedia.html"><h3 class="testo_home p-4">La Commedia</h3></a>
+      </div>
+   </div>
+  <!-- FINE ROW -->
+  <!-- INIZIO ROW -->
+  <div class="row justify-content-center mt-5">
+    <div class="col bordiImmagini mr-5">  
+      <div class="justify-content-center align-items-end d-flex">
+        <a href="./dante_e_il_purgatorio.html"><img src="./img/incipit_home/dante_e_il_purgatorio_home500.png" class="img-fluid" alt="La storia delle pergamene e le foto di Fissore"></a>
+      </div>   
+      <a href="./dante_e_il_purgatorio.html"><h3 class="testo_home p-4">Il Purgatorio</h3></a>     
+    </div>
+    <div class="col bordiImmagini mr-5">  
+      <div class="justify-content-center align-items-end d-flex">
+        <a href="./dante_in_frasi.html"><img src="./img/incipit_home/dante_frasi500.jpeg" class="img-fluid " alt="Particolari e curiosità delle pergamene"></a>
+      </div>
+      <a href="./dante_in_frasi.html"><h3 class="testo_home p-4">Dante in Frasi</h3></a>       
+    </div>
+    <div class="col bordiImmagini mr-5">  
+      <div class="justify-content-center align-items-end d-flex">
+        <a href="./dante_e_il_piemonte.html"><img src="./img/incipit_home/dante_e_il_piemonte_home500.jpg" class="img-fluid" alt="Dante e la Commendia"></a>
+      </div>
+      <a href="./dante_e_il_piemonte.html"><h3 class="testo_home p-4">Dante e il Piemonte</h3></a>
+    </div>
+  </div>
+  <!-- FINE ROW -->
+  <!-- INIZIO ROW -->
+  <div class="row justify-content-center mt-5 mb-5">
+    <div class="col bordiImmagini mr-5">  
+      <div class="justify-content-center align-items-end d-flex">
+        <a href="./dante_e_verzuolo.html"><img src="./img/incipit_home/dante_a_verzuolo_home500.jpg" class="img-fluid" alt="Dante a Verzuolo"></a>
+      </div>   
+      <a href="./dante_e_verzuolo.html"><h3 class="testo_home p-4">Dante a Verzuolo</h3></a>      
+    </div>
+    <div class="col bordiImmagini mr-5">  
+      <div class="justify-content-center align-items-end d-flex">
+        <a href="./particolari_e_particolarita.html"><img src="./img/incipit_home/particolari_home500.png" class="img-fluid " alt="Particolari e curiosità delle pergamene"></a>
+      </div>  
+      <a href="./particolari_e_particolarita.html"><h3 class="testo_home p-4">Particolari</h3></a>       
+    </div>
+    <div class="col bordiImmagini mr-5">  
+      <div class="justify-content-center align-items-end d-flex">
+        <a href="./partecipanti.html"><img src="./img/incipit_home/partecipanti500.png" class="img-fluid" alt="Partecipanti"></a>
+      </div>
+      <a id="colore" href="./partecipanti.html"><h3 class="testo_home p-4">Partecipanti</h3></a>
+    </div>
+  </div>
+<!-- FINE ROW -->
+ 
 </div>
 <!-- CONTAINER -->
-  
-  <div class="jumbotron text-center footer_pagina">
-    <div class="row">
-      <div class="col-sm-6">
-        <h3>Info e Contatti</h3>
-        <p>Comune di Verzuolo</p>
-        <p>Piazza Martiri della Libertà, 1</p>
-        <p>12039 Verzuolo (CN)</p>
-        <p>Tel: 0175.25.51.11</p>
-      </div>
-      <div class="col-sm-6">
-        <img src="./img/loghi_enti.png" class="img-rounded" alt="Grazie"> 
-      </div>
-    </div>
-    <!-- ROW -->
-  </div>
-  <footer class="bg-light text-center text-lg-start">
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      Tutto il materiale presente sul sito è di proprietà di IIS Denina, Comune di Verzuolo e privati
-    </div>
-  </footer>
 
+
+
+
+ <!-- INIZIO FOOTER -->
+
+ <footer>
+  <div class="footer-top">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-6 col-sm-6 bordi d-flex justify-content-center">
+                  <div class="address d-flex flex-column align-items-center">
+                      <h3 class="testo_home p-4">Comune di Verzuolo</h3>
+                      <p class="mb-4 mt-4">Piazza Martiri della Libertà, 1 - 12039 Verzuolo (CN)</p>
+                      <p><strong>Tel: </strong>0175 255111</p>
+                  </div>
+              </div>
+              <div class="col-lg-6 col-sm-6 newsletter bordi d-flex justify-content-center">
+                  <h4>I nostri Partner</h4>
+                  <div class="social-links mt-3">
+                      <a href="#"><img src="./img/incipit_home/comune.jpg" alt="" srcset=""></a>
+                      <a href="#"><img src="./img/incipit_home/denina.png" alt="" srcset=""></a>
+                      <a href="#"><img src="./img/incipit_home/crc.png" alt="" srcset=""></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="footer-bottom">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <p class="text-center mb-2">&copy; Copyright <strong>Denina</strong>. All Rights Reserved - Creato da <a href="https://www.denina.it/">Alunni del Denina Pellico Rivoira</a></p>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+ <!-- FINE FOOTER -->
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <script> 
+    $(function(){
+      $("#header").load("header.html"); 
+    });
+    </script>
 </body>
 </html>
