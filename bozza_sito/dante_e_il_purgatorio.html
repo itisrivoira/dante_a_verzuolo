@@ -15,7 +15,7 @@
     <nav class="navbar navbar-expand-md navbar-dark">
     <div class="container">
       
-      <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
+    <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
         <span class="menu-icon-bar"></span>
         <span class="menu-icon-bar"></span>
         <span class="menu-icon-bar"></span>
@@ -61,11 +61,16 @@
   
   </header>
   <!-- FINE HEADER -->
+
+<audio id="audio_player">
+  <source src="./audio/purgatorio.ogg" type="audio/ogg">
+  Spiacenti, non è possibile effettuare questo ascolto.
+</audio>
   
 <div class="container">
   <div class="row mt-5">
-    <div class="col d-flex align-self-center">
-      <h1>Dante e il Purgatorio</h1>
+    <div class="col d-flex">
+      <h1>Dante e la Purgatorio</h1><img src="./img/dante_audio_100r.png" class="img-fluid" alt="" srcset="" onclick="playAudio()">
     </div>
   </div>
 
@@ -73,12 +78,12 @@
     <div class="col-sm-12">
       <p class="testo">Il Purgatorio è la seconda cantica della Divina Commedia.</p>
       <p class="testo">E’ composta da Dante tra il 1309 e il 1 ed è stata “licenziata”, resa pubblica, per gruppi di canti o cantica per cantica, ad oggi non se ne ha certezza.</p>
-      <p class="testo">Due testimonianze di contemporanei ci permettono di avere alcuni dati ceti sulla composizione e sulla diffusione del Purgatorio. Il primo è Andrea Lancia, notaio fiorentino, contemporaneo di Dante e divulgatore di libri classici. Traduce l’Eneide di Virgilio e nell’episodio in cui <a href="https://www.corriere.it/Primo_Piano/Cronache/2009/05/05/pop_enea.shtml" target="__blank">Enea che fugge da Troia</a> in fiamme ed incontra la madre Creusa dice che l’eroe troiano abbraccia tre volte la madre. Questo episodio nell’Eneide non è presente, ma lo troviamo nel Purgatorio, II canto, in cui Dante abbraccia l’amico Casella e per tre volte le braccia tornano al petto. Lancia dunque conosceva molto bene il Purgatorio tanto da citarlo e cambiare lo scritto virgiliano che egli pubblica nel 1 317. </p>
-      <p class="testo">Un altro indizio della diffusione del Purgatorio lo troviamo in un’opera pittorica, <a href="https://www.terredisiena.it/arte-e-cultura/palazzo-pubblico/" target="__blank">La Maestà di Simone Martini</a>, pittore senese alla corte avignonese. L’affresco della Maestà, realizzato per la sala del Consiglio di Siena tra il 1312 e 1315, riporta nella predella, sotto i piedi della Vergine, alcune terzine del Purgatorio, elemento che evidenzia la conoscenza e l’apprezzamento della cantica da parte dell’artista già in quegli anni. </p>
-      <p class="testo">Il codice verzuolese conserva sommariamente i canti dal XXI al XXX del Purgatorio e ci riporta nella V-VI cornice della seconda cantica; la parte più cospicua dei frammenti riguarda la VI cornice dove si purgano i <a href="https://divinacommedia.weebly.com/golosi.html" target="__blank">peccati della gola</a>.</p>
+      <p class="testo">Due testimonianze di contemporanei ci permettono di avere alcuni dati ceti sulla composizione e sulla diffusione del Purgatorio. Il primo è Andrea Lancia, notaio fiorentino, contemporaneo di Dante e divulgatore di libri classici. Traduce l’Eneide di Virgilio e nell’episodio in cui <a href="https://www.corriere.it/Primo_Piano/Cronache/2009/05/05/pop_enea.shtml" class="mioLink" target="__blank">Enea che fugge da Troia</a> in fiamme ed incontra la madre Creusa dice che l’eroe troiano abbraccia tre volte la madre. Questo episodio nell’Eneide non è presente, ma lo troviamo nel Purgatorio, II canto, in cui Dante abbraccia l’amico Casella e per tre volte le braccia tornano al petto. Lancia dunque conosceva molto bene il Purgatorio tanto da citarlo e cambiare lo scritto virgiliano che egli pubblica nel 1 317. </p>
+      <p class="testo">Un altro indizio della diffusione del Purgatorio lo troviamo in un’opera pittorica, <a href="https://www.terredisiena.it/arte-e-cultura/palazzo-pubblico/" class="mioLink" target="__blank">La Maestà di Simone Martini</a>, pittore senese alla corte avignonese. L’affresco della Maestà, realizzato per la sala del Consiglio di Siena tra il 1312 e 1315, riporta nella predella, sotto i piedi della Vergine, alcune terzine del Purgatorio, elemento che evidenzia la conoscenza e l’apprezzamento della cantica da parte dell’artista già in quegli anni. </p>
+      <p class="testo">Il codice verzuolese conserva sommariamente i canti dal XXI al XXX del Purgatorio e ci riporta nella V-VI cornice della seconda cantica; la parte più cospicua dei frammenti riguarda la VI cornice dove si purgano i <a href="https://divinacommedia.weebly.com/golosi.html" class="mioLink" target="__blank">peccati della gola</a>.</p>
       <p class="testo">I penitenti sono colpevoli di eccessivo amore per il cibo e le bevande e sono tormentati da fame e sete continua, stimolati dal profumo di dolci frutti che pendono da due alberi posti all’ingresso e all’uscita della cornice e da una fonte d’acqua che sgorga dalla roccia e sale verso l’alto. </p>
       <p class="testo">Come sappiamo il Purgatorio è una montagna che si erge agli antipodi di Gerusalemme, divisa in tre parti Antipurgatorio, Purgatorio e Paradiso Terrestre.</p>
-      <p class="testo">La struttura morale del Purgatorio si basa sulla visione <a href="https://www.treccani.it/enciclopedia/tomismo_(Dizionario-di-filosofia)/" target="__blank">tomistica</a> dei 7 peccati capitali ed è suddiviso in 7 cornici, in cui vengono espiati i vari peccati.</p>
+      <p class="testo">La struttura morale del Purgatorio si basa sulla visione <a href="https://www.treccani.it/enciclopedia/tomismo_(Dizionario-di-filosofia)/" class="mioLink" target="__blank">tomistica</a> dei 7 peccati capitali ed è suddiviso in 7 cornici, in cui vengono espiati i vari peccati.</p>
       <p class="testo">Le pene del Purgatorio sono attribuite secondo la regola del contrappasso, per analogia o contrasto, ma non sono eterne, come nell’Inferno. Le anime infatti sono salve ed affrontano un percorso di purificazione. Il clima è diverso da quello degli Inferi: le anime pregano, cantano e sono solidali tra loro.</p>
       <p class="testo">Virgilio guida Dante attraverso quasi tutta la cantica, ma giunto al Paradiso terrestre dovrà cedere il posto a Beatrice.</p>
     </div>
