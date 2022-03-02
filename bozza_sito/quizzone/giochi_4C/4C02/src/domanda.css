@@ -1,0 +1,13 @@
+.navInfo{
+    position: absolute;
+    top:0;
+    right:0;
+    padding: 3px;
+    background-color: white;
+}
+.navInfo div{
+    margin:5px;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+}

@@ -1,0 +1,10 @@
+.navbar{
+    background-color: darkred;
+    z-index: 5;
+    width: 100%;
+}
+
+.navbar img{
+    height: 7vh;
+    padding:10px;
+}

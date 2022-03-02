@@ -1,0 +1,77 @@
+.home h4{
+    font-size:2.5rem;
+    background-color: darkred;
+    color:white;
+    padding:30px;
+    border-radius: 10px;
+}
+
+@keyframes gioca{
+    10%{background-color: darkred;}
+    100%{background-color: red;}
+}
+
+.home p{
+    text-align: center;
+    box-sizing: border-box;
+    padding:30px;
+    background-color: rgba(255, 255, 255, 0.431);
+    backdrop-filter: blur(5px);
+    font-size:1.4rem;
+}
+
+.home{
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home div{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding:5px;
+    box-sizing: border-box;
+}
+
+.home a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+    background-color: darkred;
+    color:white;
+    font-weight: bold;
+    font-size:2rem;
+    width: 100%;
+    text-decoration: none;
+    height:15vh;
+    box-sizing: border-box;
+    transition: all 1s;
+    animation: gioca 1s infinite alternate-reverse;
+}
+
+.home a:hover{
+    font-size:2.5rem;
+}
+
+@media (min-width: 768px){
+    .home{
+        width:40%;
+        margin:auto;
+    }
+    .home div{
+        border-radius: 10px 10px 0px 0px;
+    }
+    .home a{
+        border-radius: 0px 0px 10px 10px;
+    }
+    .home a:hover{
+        height:20vh;
+        font-size:2.5rem;
+    }
+}

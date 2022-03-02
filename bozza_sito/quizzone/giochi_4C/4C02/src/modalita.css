@@ -1,0 +1,64 @@
+.gioca{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:2%;
+}
+
+.buttons,.labels{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2,30%);
+    grid-template-rows: repeat(1,fit-content);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:30px;
+}
+
+.labels{
+    background-color: white;
+}
+
+.buttons a{
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkred;
+    color:white;
+    height: 100%;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding:20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px black;
+    margin:15px;
+    transition: all 200ms;
+}
+
+.buttons a:hover{
+    background-color: black;
+}
+
+
+.labels label{
+    font-weight: bold;
+    padding:20px;
+    text-align: center;
+}
+
+@media (max-width: 768px){
+    .labels,.buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .buttons a{
+        font-size: 1.3rem;
+    }
+    .gioca h1{
+        font-size:1.5rem;
+    }
+}
