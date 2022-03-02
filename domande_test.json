@@ -1,0 +1,43 @@
+[
+   {
+      "testo":"A quale fazione politica apparteneva Dante?",
+      "A":"Guelfi bianchi",
+      "B":"Guelfi neri",
+      "C":"Ghibellini",
+      "D":"Nessuna delle precedenti risposte è corretta",
+      "corretta":"A"
+   },
+   {
+      "testo":"Quali sono le opere più famose di Dante?",
+      "A":"La Divina Commedia, il Decameron, la Vita Nuova",
+      "B":"La Divina Commedia, il Filòstrato, il Convivio",
+      "C":"Il Decameron, il Filòcolo, il Secretum",
+      "D":"La Divina Commedia, la Vita Nuova, il De vulgari eloquentia",
+      "corretta":"D"
+   },
+   {
+      "testo":"La Divina Commedia è divisa in cantiche, quante sono in totale?",
+      "A":"6",
+      "B":"10",
+      "C":"3",
+      "D":"33",
+      "corretta":"C"
+   },
+   {
+      "testo":"A che età Dante incontra Beatrice per la prima volta?",
+      "A":"9 anni",
+      "B":"18 anni",
+      "C":"23 anni",
+      "D":"Non l'ha mai incontrata",
+      "corretta":"A"
+   },
+   {
+      "testo":"Con chi si sposa Dante, all'età di 20 anni?",
+      "A":"Beatrice",
+      "B":"Gemma Donati",
+      "C":"Bella degli Abati",
+      "D":"Terasa di Blasco",
+      "corretta":"B"
+   }
+]
+ 
