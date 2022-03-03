@@ -1,5 +1,6 @@
 [
 	{
+	   "id":"M01",
 		"testo":"Chi ha scoperto i manoscritti del Purgatorio a Verzuolo?",		"A":"un dottore",
 		"B":"un farmacista",
 		"C":"un conte",
@@ -7,6 +8,7 @@
 		"corretta":"B"
 	},
 	{
+	   "id":"M02",
 		"testo":"In quale secolo sono stati scoperti?",		"A":"XV secolo",
 		"B":"XVIII secolo",
 		"C":"XIX secolo",
@@ -14,6 +16,7 @@
 		"corretta":"C"
 	},
 	{
+	   "id":"M03",
 		"testo":"Quanto sono grandi i frammenti?",		"A":"circa 54 cm",
 		"B":"circa 80 cm",
 		"C":"circa 70 cm",
@@ -21,6 +24,7 @@
 		"corretta":"D"
 	},
 	{
+	   "id":"M04",
 		"testo":"Quale scrittura è stata utilizzata?",		"A":"cancelleresca",
 		"B":"littera textualis",
 		"C":"toscana",
@@ -28,6 +32,7 @@
 		"corretta":"B"
 	},
 	{
+	   "id":"M05",
 		"testo":"A quale cantica appartengono i frammenti ritrovati?",		"A":"Inferno",
 		"B":"Purgatorio",
 		"C":"Paradiso",
@@ -35,13 +40,16 @@
 		"corretta":"B"
 	},
 	{
-		"testo":"Qual è l’ipotesi più probabile sulla presenza dei manoscritti a Verzuolo?",		"A":"I manoscritti, provenienti da oltralpe e custoditi da religiosi, furono portati nel Marchesato di Saluzzo in occasione di alcune letture dantesche.",
-		"B":"Il fratello di Dante, giunto a Verzuolo dopo un viaggio in Francia, regalò i manoscritti ai monaci del luogo come segno di gratitudine per averlo ospitato.",
-		"C":"I manoscritti, provenienti dalla Germania e custoditi da alcuni mercanti, giunsero nel Marchesato di Saluzzo per essere venduti a caro prezzo.",
-		"D":"I manoscritti furono portati a Verzuolo dal figlio di Dante che era diventato un famoso banchiere.",
+	   "id":"M06",
+		"testo":"Come sono arrivati i frammenti a Verzuolo?",
+		"A": "tramite mercanti tedeschi",
+		"B": "tramite trovatori francesi per letture pubbliche nel marchesato",
+		"C": "per volere del figlio banchiere",
+		"D": "per volere del fratello monaco benedettino",
 		"corretta":"A"
 	},
 	{
+	   "id":"M07",
 		"testo":"Un manoscritto della Divina Commedia è:",
 		"A":"un libro che Dante ha scritto e pubblicato",
 		"B":"un libro scritto a mano",
@@ -50,6 +58,7 @@
 		"corretta":"C"
 	},
 	{
+	   "id":"M08",
 		"testo":"I frammenti di Verzuolo sono:",
 		"A":"pergamene",
 		"B":"fogli di carta antica",
@@ -58,6 +67,7 @@
 		"corretta":"A"
 	},
 	{
+	   "id":"M09",
 		"testo":"La fascicolazione di un’opera come la Divina Commedia è avvenuta utilizzando:",
 		"A":"quaderni, quinterni, terni",
 		"B":"quaderni, quinterni, sesterni",
@@ -66,6 +76,7 @@
 		"corretta":"B"
 	},
 	{
+	   "id":"M10",
 		"testo":"Della Divina Commedia abbiamo:",
 		"A":"800 manoscritti e 200 frammenti",
 		"B":"1800 manoscritti e 200 frammenti",
@@ -74,6 +85,7 @@
 		"corretta":"C"
 	},
 	{
+	   "id":"M11",
 		"testo":"Nel caso della Divina Commedia:",
 		"A":"non c’è un manoscritto uguale ad un altro",
 		"B":"non c’è alcuna differenza tra un manoscritto e l’altro",
@@ -82,6 +94,7 @@
 		"corretta":"A"
 	},
 	{
+	   "id":"M12",
 		"testo":"Hanno studiato i manoscritti:",
 		"A":"paleologi e fisiologi",
 		"B":"paleologi e fisici",
@@ -90,6 +103,7 @@
 		"corretta":"D"
 	},
 	{
+	   "id":"M13",
 		"testo":"Il libro degli ordinati è:",
 		"A":"un libro di preghiere",
 		"B":"un libro che contiene leggi e comandi",
@@ -98,6 +112,7 @@
 		"corretta":"B"
 	},
 	{
+	   "id":"M14",
 		"testo":"Quando è stata pubblicata la Divina Commedia?",
 		"A":"Quando Dante era già morto",
 		"B":"Quando Dante era ancora in vita",
@@ -106,6 +121,7 @@
 		"corretta":"D"
 	},
 	{
+	   "id":"M15",
 		"testo":"Chi erano coloro che confezionavano i manoscritti?",
 		"A":"Gli scrittori",
 		"B":"I copisti",
@@ -114,6 +130,7 @@
 		"corretta":"B"
 	},
 	{
+	   "id":"M16",
 		"testo":"Quale peccato hanno commesso Paolo e Francesca?",
 		"A":"Omicidio",
 		"B":"Furto",
@@ -122,6 +139,7 @@
 		"corretta":"C"
 	},
 	{
+	   "id":"M17",
 		"testo":"Dove si ritrova Dante all’inizio del viaggio?",
 		"A":"In una foresta buia",
 		"B":"In una palude",
@@ -130,6 +148,7 @@
 		"corretta":"A"
 	},
 	{
+	   "id":"M18",
 		"testo":"Perché Manfredi era stato scomunicato?",
 		"A":"Aveva guidato una rivolta contro il Papa",
 		"B":"Aveva guidato i ghibellini contro il Papa",
@@ -138,18 +157,30 @@
 		"corretta":"B"
 	},
 	{
-		"testo":"Quali sono i pianeti corrispondenti ai cieli del Paradiso?",		"A":"Luna, Giove, Saturno, Marte, Sole, Venere, Plutone",
-		"B":" Giove, Saturno, Marte, Urano, Sole, Venere, Luna",
-		"C":" Saturno, Giove, Marte, Sole, Venere, Mercurio, Luna",
-		"D":"Nettuno, Marte, Luna, Sole, Giove, Saturno, Venere",
-		"corretta":"A"
-	},
+	   "id":"M19",
+		"testo":"Qual è la funzione del fiume Leté?",
+		"A":"Far ricordare i peccati commessi",
+		"B":"Far dimenticare i peccati commessi",
+		"C":"Far ricordare il bene compiuto",
+		"D":"Far dimenticare il bene compiuto",
+		"corretta":"B"
+	},	
 	{
-		"testo":"Quali sono le funzioni dei fiumi del Paradiso Terrestre?",
-		"A":"Il Leté fa dimenticare i peccati commessi, l’Eunoè fa ricordare il bene compiuto",
-		"B":"L’Eunoè fa dimenticare i peccati commessi, il Letè fa ricordare il bene compiuto",
-		"C":"Il Letè separa l’antipurgatorio dalle cornici, l’Eunoè separa le cornici dal Paradiso Terrestre",
-		"D":"Il Letè attraversa l’Antipurgatorio,, l’Eunoè scorre nel Paradiso Terrestre",
-		"corretta":"A"
-	}
+	   "id":"M20",
+		"testo":"Qual è la funzione del fiume Eunoè?",
+		"A":"Far ricordare i peccati commessi",
+		"B":"Far dimenticare i peccati commessi",
+		"C":"Far ricordare il bene compiuto",
+		"D":"Far dimenticare il bene compiuto",
+		"corretta":"C"
+	},	
+	{
+	   "id":"M21",
+		"testo":"Quale fiume scorre nel Paradiso Terreste?",
+		"A":"Stige",
+		"B":"Acheronte",
+		"C":"Leté",
+		"D":"Tevere",
+		"corretta":"C"
+	},	
 ]
