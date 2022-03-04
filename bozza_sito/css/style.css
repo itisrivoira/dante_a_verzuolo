@@ -24,7 +24,7 @@ body{
 
 .testo_home{
     background-color: #5f3f34;
-    font-size: 2vw;
+    font-size: 3vh;
     font-family: sans-serif;
     color: #b9a286;
     text-align: justify;
@@ -555,7 +555,7 @@ p {
 
 
 .alto {
-  height: 80px !important;
+  height: 100px !important;
 }
 
 .overlay {
